@@ -15,9 +15,6 @@
     <properties>
         <final.name>metrics</final.name>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <version.thorntail>2.4.0.Final</version.thorntail>
     </properties>
     <dependencies>
         <dependency>
