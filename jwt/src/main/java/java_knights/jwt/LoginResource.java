@@ -10,10 +10,6 @@ import javax.ws.rs.core.Response;
 @Path("/login")
 public class LoginResource {
 
-    private static final String AUTHORIZATION_HEADER = "Authorization";
-
-    private static final String AUTH_TOKEN_PREFIX = "Bearer ";
-
     @PermitAll
     @GET
     @Path("{user}")
