@@ -28,7 +28,6 @@ public class HelloResource {
     @Timeout(500)
     @Fallback(fallbackMethod = "fallback")
     @Counted(name = "slow", monotonic = true)
-    @RolesAllowed("admin")
     public String slowHello() {
         try { Thread.sleep(r.nextInt(1000)); } catch (InterruptedException ignored) { }
         return "Slow hello world";
